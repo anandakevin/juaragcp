@@ -30,8 +30,8 @@ def generate_image(
     return images
 
 generate_image(
-    project_id='"project-id"',
-    location='"REGION"',
+    project_id='qwiklabs-gcp-02-de686c5d5bec',
+    location='us-central1',
     output_file='image.jpeg',
     prompt='Create an image of a cricket ground in the heart of Los Angeles',
     )

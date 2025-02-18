@@ -23,10 +23,11 @@ def generate_text(project_id: str, location: str) -> str:
 
 # --------  Important: Variable declaration  --------
 
-project_id = "qwiklabs-gcp-03-fa4892c702b1"
-location = "us-east4"
+project_id = "qwiklabs-gcp-02-de686c5d5bec"
+location = "us-central1"
 
 #  --------   Call the Function  --------
 
 response = generate_text(project_id, location)
 print(response)
+
